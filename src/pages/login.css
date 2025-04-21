@@ -1,0 +1,63 @@
+/* Background for login page */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1551776235-dde6d482980c') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login container box */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    color: black;
+}
+
+/* Input fields and button */
+.login-form input,
+.login-form button {
+    width: 100%;
+    margin: 15px 0;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+/* On focus */
+.login-form input:focus {
+    border-color: #f2c94c;
+    outline: none;
+    box-shadow: 0 0 5px rgba(242, 201, 76, 0.5);
+}
+
+/* Login button styling */
+.login-form button {
+    background-color: #f2c94c;
+    color: #333;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.login-form button:hover {
+    background-color: #e0b646;
+    transform: translateY(-2px);
+}
+
+/* Success message */
+.message {
+    color: green;
+    margin-top: 15px;
+    font-weight: 500;
+}

@@ -1,0 +1,99 @@
+/* Background styling */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1501117716987-c8e1ecb210d3') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Form container */
+.register-form {
+    background-color: rgba(255, 255, 255, 0.96);
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    align-items: start;
+}
+
+/* Make textarea span both columns */
+.register-form textarea {
+    grid-column: span 2;
+    resize: vertical;
+}
+
+/* Center the heading above the form */
+.register-container h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.input {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.input:focus {
+    border-color: #f2c94c;
+    outline: none;
+    box-shadow: 0 0 5px rgba(242, 201, 76, 0.5);
+}
+
+/* Register button spans both columns */
+.submit-button {
+    grid-column: span 2;
+    background-color: #f2c94c;
+    color: #333;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.submit-button:hover {
+    background-color: #e0b646;
+    transform: translateY(-2px);
+}
+
+/* Message */
+.message {
+    color: white;
+    margin-top: 10px;
+}
+
+/* Login link */
+.login-link {
+    margin-top: 25px;
+    font-size: 0.95rem;
+    color: white;
+    text-align: center;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

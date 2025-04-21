@@ -1,0 +1,60 @@
+/* Full-screen background with elegant vibe */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Main container centered vertically and horizontally */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* Main heading style */
+.home-container h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Subheading or paragraph */
+.home-container p {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    color: #e0e0e0;
+}
+
+/* Button group layout */
+.button-group {
+    display: flex;
+    gap: 20px;
+}
+
+/* Buttons styled like modern CTA buttons */
+.button-group button {
+    padding: 14px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    background-color: #f2c94c;
+    color: #333;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.button-group button:hover {
+    background-color: #e0b646;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,49 @@
+.book-room-container {
+    padding: 2rem;
+}
+  
+.room-options {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+  
+.room-card {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background: #f9f9f9;
+    color: black;
+}
+  
+.room-card.selected {
+    border-color: #007bff;
+    background: #e6f2ff;
+}
+  
+.room-card h4 {
+    margin-bottom: 0.5rem;
+}
+  
+.service-options {
+    margin: 1rem 0;
+}
+  
+.service-label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+  
+.book-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+  

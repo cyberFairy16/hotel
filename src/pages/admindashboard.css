@@ -1,0 +1,123 @@
+.admin-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+  
+  /* Sections */
+  .search-section,
+  .room-management,
+  .room-deletion,
+  .service-update,
+  .room-availability-check,
+  .booking-detail-check,
+  .total-revenue,
+  .results-section {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin: 0.5rem 0 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  label {
+    font-weight: 500;
+  }
+  
+  .customer-info,
+  .availability-result,
+  .booking-detail-result {
+    margin-top: 1rem;
+    background-color: #eef6ff;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 1.6;
+  }
+  
+  .booking-card {
+    background-color: #ffffff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .booking-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-card ul {
+    padding-left: 1.5rem;
+  }
+  
+  .total-revenue p {
+    font-size: 1.1rem;
+    margin: 0.4rem 0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .admin-dashboard {
+      padding: 1rem;
+    }
+  
+    input,
+    button {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    button {
+      margin-right: 0;
+    }
+  }
+  
